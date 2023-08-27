@@ -64,6 +64,7 @@
 		E99CFC592A9BF92800D198AB /* CoordinatorUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E99CFC732A9BFB5800D198AB /* ApplicationCoordinator.swift */,
 				E99CFC762A9BFEA700D198AB /* Main */,
 				E99CFC752A9BFE9D00D198AB /* Onboarding */,
 				E99CFC6E2A9BFAD600D198AB /* ContentView.swift */,
@@ -74,7 +75,6 @@
 				E99CFC632A9BF92900D198AB /* Assets.xcassets */,
 				E99CFC652A9BF92900D198AB /* LaunchScreen.storyboard */,
 				E99CFC682A9BF92900D198AB /* Info.plist */,
-				E99CFC732A9BFB5800D198AB /* ApplicationCoordinator.swift */,
 			);
 			path = CoordinatorUIKit;
 			sourceTree = "<group>";

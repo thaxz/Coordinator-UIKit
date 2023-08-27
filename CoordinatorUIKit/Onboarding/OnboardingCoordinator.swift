@@ -16,10 +16,7 @@ class OnboardingCoordinator: Coordinator {
         let view = OnboardingView {
             
         }
-        let viewController = UIHostingController(rootView: view)
+        rootViewController = UIHostingController(rootView: view)
     }
-    
-    
-    
-    
+
 }
