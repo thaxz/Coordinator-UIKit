@@ -33,8 +33,8 @@ class ApplicationCoordinator: Coordinator {
                 mainCoordinator.start()
                 self?.childCoordinators = [mainCoordinator]
                 self?.window.rootViewController = mainCoordinator.rootViewController
-            } else {
-                let onboardingCoordinator = OnboardingCoordinator()
+            } else if let hasSeenOnboarding = self?.hasSeenOnboarding {
+                let onboardingCoordinator = OnboardingCoordinator(hasSeenOnboarding: hasSeenOnboarding)
                 onboardingCoordinator.start()
                 self?.childCoordinators = [onboardingCoordinator]
                 self?.window.rootViewController = onboardingCoordinator.rootViewController
