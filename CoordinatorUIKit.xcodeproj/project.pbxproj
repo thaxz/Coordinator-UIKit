@@ -15,6 +15,8 @@
 		E99CFC6F2A9BFAD600D198AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC6E2A9BFAD600D198AB /* ContentView.swift */; };
 		E99CFC722A9BFB2B00D198AB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC712A9BFB2B00D198AB /* Coordinator.swift */; };
 		E99CFC742A9BFB5800D198AB /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC732A9BFB5800D198AB /* ApplicationCoordinator.swift */; };
+		E99CFC782A9BFEBC00D198AB /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC772A9BFEBC00D198AB /* OnboardingCoordinator.swift */; };
+		E99CFC7A2A9BFEE400D198AB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC792A9BFEE400D198AB /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E99CFC6E2A9BFAD600D198AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E99CFC712A9BFB2B00D198AB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E99CFC732A9BFB5800D198AB /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		E99CFC772A9BFEBC00D198AB /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		E99CFC792A9BFEE400D198AB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		E99CFC592A9BF92800D198AB /* CoordinatorUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E99CFC762A9BFEA700D198AB /* Main */,
+				E99CFC752A9BFE9D00D198AB /* Onboarding */,
 				E99CFC6E2A9BFAD600D198AB /* ContentView.swift */,
 				E99CFC702A9BFB1F00D198AB /* Protocols */,
 				E99CFC5A2A9BF92800D198AB /* AppDelegate.swift */,
@@ -79,6 +85,22 @@
 				E99CFC712A9BFB2B00D198AB /* Coordinator.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E99CFC752A9BFE9D00D198AB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E99CFC772A9BFEBC00D198AB /* OnboardingCoordinator.swift */,
+				E99CFC792A9BFEE400D198AB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E99CFC762A9BFEA700D198AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +176,9 @@
 				E99CFC5F2A9BF92800D198AB /* ViewController.swift in Sources */,
 				E99CFC5B2A9BF92800D198AB /* AppDelegate.swift in Sources */,
 				E99CFC722A9BFB2B00D198AB /* Coordinator.swift in Sources */,
+				E99CFC782A9BFEBC00D198AB /* OnboardingCoordinator.swift in Sources */,
 				E99CFC6F2A9BFAD600D198AB /* ContentView.swift in Sources */,
+				E99CFC7A2A9BFEE400D198AB /* OnboardingView.swift in Sources */,
 				E99CFC5D2A9BF92800D198AB /* SceneDelegate.swift in Sources */,
 				E99CFC742A9BFB5800D198AB /* ApplicationCoordinator.swift in Sources */,
 			);
