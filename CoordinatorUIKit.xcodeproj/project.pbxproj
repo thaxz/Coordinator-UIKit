@@ -20,6 +20,10 @@
 		E99CFC7C2A9C011500D198AB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC7B2A9C011500D198AB /* MainCoordinator.swift */; };
 		E99CFC802A9C015600D198AB /* FirstTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC7F2A9C015600D198AB /* FirstTabCoordinator.swift */; };
 		E99CFC822A9C01C000D198AB /* SecondTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC812A9C01C000D198AB /* SecondTabCoordinator.swift */; };
+		E99CFC842A9C021300D198AB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC832A9C021300D198AB /* FirstViewController.swift */; };
+		E99CFC862A9C023100D198AB /* FirstDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC852A9C023100D198AB /* FirstDetailView.swift */; };
+		E99CFC892A9C024800D198AB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC872A9C024800D198AB /* SecondViewController.swift */; };
+		E99CFC8A2A9C024800D198AB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99CFC882A9C024800D198AB /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		E99CFC7B2A9C011500D198AB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E99CFC7F2A9C015600D198AB /* FirstTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCoordinator.swift; sourceTree = "<group>"; };
 		E99CFC812A9C01C000D198AB /* SecondTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCoordinator.swift; sourceTree = "<group>"; };
+		E99CFC832A9C021300D198AB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E99CFC852A9C023100D198AB /* FirstDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailView.swift; sourceTree = "<group>"; };
+		E99CFC872A9C024800D198AB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E99CFC882A9C024800D198AB /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				E99CFC7F2A9C015600D198AB /* FirstTabCoordinator.swift */,
+				E99CFC832A9C021300D198AB /* FirstViewController.swift */,
+				E99CFC852A9C023100D198AB /* FirstDetailView.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -124,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				E99CFC812A9C01C000D198AB /* SecondTabCoordinator.swift */,
+				E99CFC872A9C024800D198AB /* SecondViewController.swift */,
+				E99CFC882A9C024800D198AB /* SecondViewController.xib */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -188,6 +200,7 @@
 			files = (
 				E99CFC672A9BF92900D198AB /* LaunchScreen.storyboard in Resources */,
 				E99CFC642A9BF92900D198AB /* Assets.xcassets in Resources */,
+				E99CFC8A2A9C024800D198AB /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +214,10 @@
 				E99CFC5F2A9BF92800D198AB /* ViewController.swift in Sources */,
 				E99CFC5B2A9BF92800D198AB /* AppDelegate.swift in Sources */,
 				E99CFC722A9BFB2B00D198AB /* Coordinator.swift in Sources */,
+				E99CFC842A9C021300D198AB /* FirstViewController.swift in Sources */,
+				E99CFC892A9C024800D198AB /* SecondViewController.swift in Sources */,
 				E99CFC802A9C015600D198AB /* FirstTabCoordinator.swift in Sources */,
+				E99CFC862A9C023100D198AB /* FirstDetailView.swift in Sources */,
 				E99CFC782A9BFEBC00D198AB /* OnboardingCoordinator.swift in Sources */,
 				E99CFC6F2A9BFAD600D198AB /* ContentView.swift in Sources */,
 				E99CFC7A2A9BFEE400D198AB /* OnboardingView.swift in Sources */,
