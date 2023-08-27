@@ -12,8 +12,17 @@ class MainCoordinator: Coordinator {
     
     var rootViewController = UITabBarController()
     
+    var childCoordinator = [Coordinator]()
+    
     func start() {
+        let firstCoordinator = FirstTabCoordinator()
+        firstCoordinator.start()
+        self.childCoordinator.append(firstCoordinator)
+        let secondCoordinator = SecondTabCoordinator()
+        secondCoordinator.start()
+        self.childCoordinator.append(secondCoordinator)
         
+        self.rootViewController.viewControllers = [firstCoordinator.rootViewController, secondCoordinator.rootViewController] 
     }
     
     
