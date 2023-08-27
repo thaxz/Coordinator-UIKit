@@ -24,6 +24,7 @@
 		E99CFC862A9C023100D198AB /* FirstDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC852A9C023100D198AB /* FirstDetailView.swift */; };
 		E99CFC892A9C024800D198AB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC872A9C024800D198AB /* SecondViewController.swift */; };
 		E99CFC8A2A9C024800D198AB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99CFC882A9C024800D198AB /* SecondViewController.xib */; };
+		E99CFC8C2A9C0B4D00D198AB /* FirstTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CFC8B2A9C0B4D00D198AB /* FirstTabViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E99CFC852A9C023100D198AB /* FirstDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailView.swift; sourceTree = "<group>"; };
 		E99CFC872A9C024800D198AB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E99CFC882A9C024800D198AB /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		E99CFC8B2A9C0B4D00D198AB /* FirstTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				E99CFC7F2A9C015600D198AB /* FirstTabCoordinator.swift */,
 				E99CFC832A9C021300D198AB /* FirstViewController.swift */,
 				E99CFC852A9C023100D198AB /* FirstDetailView.swift */,
+				E99CFC8B2A9C0B4D00D198AB /* FirstTabViewModel.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				E99CFC782A9BFEBC00D198AB /* OnboardingCoordinator.swift in Sources */,
 				E99CFC6F2A9BFAD600D198AB /* ContentView.swift in Sources */,
 				E99CFC7A2A9BFEE400D198AB /* OnboardingView.swift in Sources */,
+				E99CFC8C2A9C0B4D00D198AB /* FirstTabViewModel.swift in Sources */,
 				E99CFC822A9C01C000D198AB /* SecondTabCoordinator.swift in Sources */,
 				E99CFC5D2A9BF92800D198AB /* SceneDelegate.swift in Sources */,
 				E99CFC7C2A9C011500D198AB /* MainCoordinator.swift in Sources */,
