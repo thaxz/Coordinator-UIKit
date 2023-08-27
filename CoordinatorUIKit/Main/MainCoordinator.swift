@@ -7,10 +7,16 @@
 
 import Foundation
 import UIKit
+import Combine
 
 class MainCoordinator: Coordinator {
     
-    var rootViewController = UITabBarController()
+    var rootViewController: UITabBarController
+    
+    init() {
+        self.rootViewController = UITabBarController()
+        rootViewController.tabBar.isTranslucent = true
+    }
     
     var childCoordinator = [Coordinator]()
     
@@ -25,7 +31,7 @@ class MainCoordinator: Coordinator {
         secondCoordinator.start()
         self.childCoordinator.append(secondCoordinator)
         let secondViewController = secondCoordinator.rootViewController
-        setup(vc: firstViewController, title: "Second Tab", imageName: "bell", selectedImageName: "bell.fill")
+        setup(vc: secondViewController, title: "Second Tab", imageName: "bell", selectedImageName: "bell.fill")
         
         self.rootViewController.viewControllers = [firstViewController, secondViewController]
     }
